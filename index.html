@@ -30,6 +30,14 @@
             class="hidden rounded-full px-6 pt-2 p-3 text-white
             bg-gray-800 baseline hover:bg-gray-400 md:block">
             Get Started</a>
+
+            <!-- hamburger icon -->
+            <button id="menu-btn" class="block hamburger md:hidden 
+            focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
         </div>
     </nav>
     <!-- Hero Section -->
@@ -245,5 +253,80 @@
             </div>
         </div>
     </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-black">
+        <!-- flex container -->
+        <div class="container flex flex-col-reverse justify-between 
+        py-10 px-6 mx-auto space-y-8 md:flex-row md:space-y-0">
+            <!-- logo and social links container-->
+            <div class="flex flex-col items-center 
+            justify-between space-y-3 md:justify-start md:items-start">
+                <div class=" mx-auto my-6 text-center text-white md:hidden">
+                    Copyright &copy; 2022, All Rights Reserved
+                </div>
+                <!-- logo -->
+                <div>
+                    <img src="img/logo-white.svg" class="h-8" alt="">
+                </div>
+                <!-- social links -->
+                <div class="flex justify-center space-x-4">
+                    <!-- link 1 -->
+                    <a href="#">
+                        <img src="img/icon-facebook.svg" alt="">
+                    </a>
+                    <!-- link 2 -->
+                    <a href="#">
+                        <img src="img/icon-youtube.svg" alt="">
+                    </a>
+                    <!-- link 3 -->
+                    <a href="#">
+                        <img src="img/icon-twitter.svg" alt="">
+                    </a>
+                    <!-- link 4 -->
+                    <a href="#">
+                        <img src="img/icon-pinterest.svg" alt="">
+                    </a>
+                    <!-- link 5 -->
+                    <a href="#">
+                        <img src="img/icon-instagram.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <!-- list container -->
+            <div class="flex justify-end space-x-32">
+                <div class="flex flex-col space-y-3 text-white">
+                    <a href="#" class="hover:text-gray-400">Home</a>
+                    <a href="#" class="hover:text-gray-400">Pricing</a>
+                    <a href="#" class="hover:text-gray-400">Products</a>
+                    <a href="#" class="hover:text-gray-400">About</a>
+                </div>
+                <div class="flex flex-col space-y-3 text-white">
+                    <a href="#" class="hover:text-gray-400">Careers</a>
+                    <a href="#" class="hover:text-gray-400">Community</a>
+                    <a href="#" class="hover:text-gray-400">Privacy Policy</a>
+                </div>
+            </div>
+            <!-- input container -->
+            <div class="flex flex-col justify-between">
+                <form >
+                    <div class="flex space-x-3">
+                        <input type="text" class="flex-1 px-4 rounded-full 
+                        focus:outline-none"
+                        placeholder="Updated in your inbox"
+                        />
+                        <button class="px-6 py-2 text-white rounded-full 
+                        bg-gray-800 hover:bg-gray-500 focus:outline-none">
+                            GO
+                        </button>
+                    </div>
+                </form>
+                <div class="hidden text-white md:block">
+                    Copyright &copy; 2022, All Rights Reserved
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
